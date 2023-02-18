@@ -1,8 +1,6 @@
-<img  src="https://skillicons.dev/icons?i=html" />
-<img  src="https://skillicons.dev/icons?i=css" />
-<img  src="https://skillicons.dev/icons?i=js" />
+<img  src="https://skillicons.dev/icons?i=html" /> <img  src="https://skillicons.dev/icons?i=css" /> <img  src="https://skillicons.dev/icons?i=js" />
 
-# <p style="color: blue">HTML CSS JAVASCRIPT PROJELERİ</p>
+# HTML CSS JAVASCRIPT PROJELERİ
 
 <hr>
 
@@ -16,4 +14,4 @@
 
 <hr>
 
-### <p style="color: red">PROJELER</p>
+### PROJELER
