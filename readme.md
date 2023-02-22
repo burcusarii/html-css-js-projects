@@ -17,4 +17,5 @@
 ### PROJELER
 
 1. ##### [İlerleme Adımları](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-1)
-1. ##### [Animation Card](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-2)
+2. ##### [Animation Card](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-2)
+3. ##### [Animation Menu](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-3)
