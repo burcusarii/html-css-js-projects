@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+img {
+    width: 600px;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #fafafa;
+    padding: 50px;
+    width: 100vw;
+    min-height: 100vh;
+    transform-origin: top left;
+    transition: 0.4s ease;
+}
+
+.container.show-nav {
+    transform: rotate(-20deg);
+}
+
+
+.container.show-nav .circle-container {
+    transform: rotate(-70deg);
+    transition: 0.4s ease;
+
+    
+}
+
+.circle-container {
+    position: absolute;
+    top: -44px;
+    left: -48px;
+    transition: 0.4s ease;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: brown;
+
+}
+
+.circle-container #close {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.circle-container #open {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+
+nav ul {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+    
+}
+
+nav ul li {
+    margin: 30px 0;
+    transform: translateX(-100%);
+    transition: 0.4s ease;
+
+
+}
+
+nav ul li + li {
+    margin-left: 20px;
+    transform: translateX(-150%);
+
+
+}
+
+nav ul li + li + li {
+     margin-left: 40px;
+     transform: translateX(-200%);
+
+}
+
+.container.show-nav + nav li {
+
+ transform: translateX(0);
+ transition: 0.4s ease;
+ transition-delay: 0.1s;
+
+}
+
