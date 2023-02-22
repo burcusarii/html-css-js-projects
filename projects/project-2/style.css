@@ -5,18 +5,20 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
 }
 
 .title {
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    border-bottom: 2px solid rosybrown;
+
     
 }
 .cards {
@@ -28,14 +30,14 @@ body {
 }
 
 .card {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
+    background-position: center !important;
+    background-size: cover !important;;
+    background-repeat: no-repeat !important;;
+    height: 90vh;
     margin: 0 10px;
-    border-radius: 30px;
+    border-radius: 100px;
     flex: 1;
-    transition: 0.5s ease;
+    transition: flex 1s ease;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -43,7 +45,7 @@ body {
 } 
 
 .card.active {
-    flex: 2;
+    flex: 3;
 }
 
 .card h2 {
