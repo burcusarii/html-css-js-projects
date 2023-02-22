@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.title {
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 0 10px;
+    border-radius: 30px;
+    flex: 1;
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+} 
+
+.card.active {
+    flex: 2;
+}
+
+.card h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rosybrown;
+    opacity: 0.58;
+    
+}
