@@ -17,6 +17,9 @@
 ### PROJELER
 
 1. ##### [İlerleme Adımları](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-1)
-2. ##### [Animation Card](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-2)
-3. ##### [Animation Menu](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-3)
-4. ##### [Animation Search](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-4)
+2. ##### [Animasyon Kartları](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-2)
+3. ##### [Animasyon Menü](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-3)
+4. ##### [Animasyonlu Arama Butonu](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-4)
+5. ##### [Arkaplan Yükleniyor](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-5)
+6. ##### [Scroll Animasyonu](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-6)
+7. ##### [Bölünmüş Açılış Sayfası](https://github.com/burcusarii/html-css-js-projects/tree/main/projects/project-7)
